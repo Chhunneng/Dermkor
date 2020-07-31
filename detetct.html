@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="mobile-detect.min.js"></script>
+</head>
+<body>
+	<script>
+    $(document).ready(function (){
+        if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
+            window.location.href = 'https://play.google.com/store/apps/details?id=com.psar.dermkor';
+        }
+        if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+            window.location.href = 'https://apps.apple.com/kh/app/psar-dermkor/id1489856291';
+        }
+    });
+</script>
+</body>
+</html>
